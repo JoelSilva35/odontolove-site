@@ -7,7 +7,7 @@ const images = [
     "assest/img/bg1.jpg",
     "assest/img/bg2.jpg",
     "assest/img/bg3.jpg",
-    "assest/img/bg4.jpg",
+    "assest/img/bg4.png",
     "assest/img/bg6.jpg"
 ];
 
@@ -28,7 +28,8 @@ menuBtn.addEventListener('click', () => {
     mobileNav.classList.toggle('active');
 });
 
-//ESPECIALIDADES
+
+//ESPECIALIDADES
 const grid = document.querySelector('.services-grid');
 const btnPrev = document.querySelector('.btn-prev');
 const btnNext = document.querySelector('.btn-next');
@@ -73,7 +74,7 @@ btnPrev1.addEventListener('click', () => {
 
 // Botão flutuante simples – WhatsApp
 (function(){
-  const phone = "5591984544033";
+  const phone = "5591981403117";
   const msg = "Olá! Gostaria de agendar uma consulta.";
   const btn = document.getElementById("waFloatBtn");
 
@@ -100,5 +101,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             document.getElementById("mobileNav").classList.remove("active");
         });
     });
-
-
